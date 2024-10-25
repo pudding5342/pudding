@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>永靖高工資訊一聯絡簿</title>
+    <style>
+        body { font-family: Arial, sans-serif; }
+        .info { margin-bottom: 15px; }
+        .info input { margin-right: 5px; }
+    </style>
+</head>
+<body>
+
+    <h1>永靖高工資訊一聯絡簿</h1>
+    <h4>作者pudding</h4>
+    <h4>之後會考慮美化網頁</h4>
+    <a href="https://discord.com/oauth2/authorize?client_id=1084389665026613288&permissions=8&integration_type=0&scope=bot+applications.commands" target="_blank">作者dc機器人</a>
+    <p>
+        <a href="https://youtu.be/dQw4w9WgXcQ?si=81BwvByC3bO-n_qL" target="_blank">點擊領取福利</a>
+    </p>
+
+    <h2>規則</h2>
+    <h3>1.請勿外流連結給本班以外的學生</h3>
+    <h3>2.請勿冒用他人身分如收到舉報則會調出後台ip並永久封鎖此ip</h3>
+    <h3>3.請勿傳送無意義之訊息刷屏</h3>
+    <h2>請上傳功課</h2>
+    <label for="uploader">功課上傳者：</label>
+    <input type="text" id="uploader" placeholder="請輸入上傳者姓名或座號"><br>
+    <label for="uploadDate">上傳日期：</label>
+    <input type="date" id="uploadDate"><br>
+    <label for="homeworkInput">作業內容：</label>
+    <textarea id="homeworkInput" placeholder="請輸入今天的作業..." rows="2" cols="50"></textarea><br>
+    <label for="dueDate">繳交日期：</label>
+    <input type="date" id="dueDate"><br>
+    <button id="saveHomework">保存功課</button>
+
+    <h3>功課列表</h3>
+    <div id="homeworkList"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
